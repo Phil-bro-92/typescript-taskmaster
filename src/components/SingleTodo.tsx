@@ -72,9 +72,7 @@ const SingleTodo: React.FC<{
                             <span
                                 className="icon"
                                 onClick={() => {
-                                    if (!edit && !todo.isDone) {
                                         setEdit(!edit);
-                                    }
                                 }}
                             >
                                 <EditIcon />
